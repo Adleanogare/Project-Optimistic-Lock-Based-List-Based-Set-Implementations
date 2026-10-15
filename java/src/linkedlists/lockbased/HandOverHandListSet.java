@@ -112,7 +112,7 @@ public class HandOverHandListSet extends AbstractCompositionalIntSet {
         
         public final int key;
         public Node next;
-        private final Lock lock = new ReentrantLock();
+        private final Lock lock = new ReentrantLock(true);
 
         Node(int item) {
             key = item;
