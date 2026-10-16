@@ -1,5 +1,7 @@
 package linkedlists.lockbased;
 
+import contention.abstractions.CompositionalSortedSet;
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
  
